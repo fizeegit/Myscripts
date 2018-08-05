@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 def hello_world():
 
-    return 'Hey, we have Flask in a Docker container!'
-
+    return '<h2>Hey, we have Flask in a Docker container!</h2>'
+    
 
 if __name__ == '__main__':
 
